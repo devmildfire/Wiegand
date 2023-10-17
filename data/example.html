@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ESP Input Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="example.css" />
+</head>
+<body>
+	<script type="text/javascript" src="example.js" defer></script>
+	<div class="title">
+		THIS IS MY EXAMPLE HTML TITLE TEXT
+	</div>
+	<div class="content">
+		THIS IS VARIABLE %HELLO_FROM_TEMPLATE% TEXT
+	</div>
+	<form class="form" action="submit" onsubmit="formSubmitFunction()">
+		<div>
+			<label for="card_number">Card number</label>
+			<input type="text" name="card_number" id="card_number">
+			
+			<label for="user_name">User name</label>
+			<input type="text" name="user_name" id="user_name">
+		</div>
+		<div>
+			<label for="coffee_count">Coffee count</label>
+			<input type="number" name="coffee_count" id="coffee_count">
+			
+			<label for="coffee_pool">Coffee pool</label>	
+			<input type="number" name="coffee_pool" id="coffee_pool">
+		</div>
+		<input type="submit">
+	</form>
+</body>
+</html>
