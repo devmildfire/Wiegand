@@ -63,7 +63,10 @@ function onLoad(event) {
     // initButton();
 }
 
-function formSubmitFunction(e) {
+function formSubmitFunction(event) {
+    event.preventDefault();
+    const cardNumberField = document.getElementById('card_number');
+    console.log(cardNumberField.value);
     
 }
 
